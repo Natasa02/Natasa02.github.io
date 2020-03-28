@@ -11,7 +11,7 @@
     <div class="app">
         <div class="grupa-inputa">
             <label>Ime:</label>
-            <input type="tekst">
+            <input type="tekst" minlength="2" maxlength="50">
         </div>
 
         <div class="grupa-inputa">
@@ -20,17 +20,17 @@
         </div>
         <div class="grupa-inputa">
             <label>Adresa e-poste:</label>
-            <input type="email">
+            <input type="email" pattern="^[a-z]+\.[0-9]{1,4}@gmail\.com$">
         </div>
 
         <div class="grupa-inputa">
             <label> Broj telefona:</label>
-            <input type="tel">
+            <input type="tel" pattern="^\+387[0-9]{8}$">
         </div>
 
         <div class="grupa-inputa">
             <label>Poruka:</label>
-            <textarea rows="6"></textarea>
+            <textarea rows="6" minlength="200" maxlength="5000"></textarea></textarea>
         </div>
         <div class="grupa-inputa">
             <label>Fakultet:</label>

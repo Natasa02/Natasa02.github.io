@@ -57,3 +57,13 @@
     cursor: pointer;
     border-radius: 3px;
 }
+
+.grupa-inputa>input:valid,
+.grupa-inputa>textarea:valid {
+    border-bottom-color: green;
+}
+
+.grupa-inputa>input:invalid,
+.grupa-inputa>textarea:invalid {
+    border-bottom-color: rgba(255, 0, 0, 0.15);
+}
