@@ -1,10 +1,10 @@
 function checkJMBG() {
     let jmbg = document.getElementById("jmbg").value;
 
-    document.getElementById("printResult").innerHTML = "";
-    document.getElementById("printResult").innerHTML = "printResult";
-
-
+    var printResult = document.getElementById("printResult");
+    printResult.innerHTML = "";
+    printResult.className="printResult";
+    
     if (jmbg.length == 13) {
         let i = 0;
         let numbers = false;
