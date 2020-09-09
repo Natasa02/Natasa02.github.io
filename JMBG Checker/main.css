@@ -1,4 +1,8 @@
- button {
+body {
+    text-align: center;
+}
+
+button {
      background-color: black;
      color: #ffffff;
      padding: 0.5%;
