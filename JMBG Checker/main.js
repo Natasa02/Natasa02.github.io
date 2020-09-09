@@ -21,6 +21,7 @@ function checkJMBG() {
                     let day = jmbg.substring(0, 2);
                     let month = jmbg.substring(2, 4);
                     let year = jmbg.substring(4, 7);
+                    document.getElementById("printResult").className = "printValidResult";
                     print("Your date of birth is:")
                     print("Day: " + day);
                     print("Month: " + month);

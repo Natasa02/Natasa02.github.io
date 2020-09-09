@@ -2,6 +2,15 @@ body {
     text-align: center;
 }
 
+.printResult {
+    color: red;
+}
+
+.printValidResult {
+    color: #00cc44;
+}
+
+
 button {
      background-color: black;
      color: #ffffff;
